@@ -52,12 +52,13 @@ const lang = () => {
 
 const styles = StyleSheet.create({
     img: {
-      position: 'absolute',
-      justifyContent:'center',
-      width: 417,
-      top:500,
-      height: 417,
-      left: 0,
+     position: 'absolute',
+      
+      width: 420,
+      top:460,
+      height:150,
+      alignSelf:'center',
+      
     },
 
   
@@ -131,5 +132,6 @@ const styles = StyleSheet.create({
     color: '#000',
   },
 });
+
 
 export default lang;
